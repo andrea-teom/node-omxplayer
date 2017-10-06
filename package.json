@@ -1,15 +1,34 @@
 {
   "name": "node-omxplayer",
-  "version": "0.6.1",
-  "description": "A library for controlling the Raspberry Pi omxplayer from Node.js.",
+  "version": "1.0.0",
+  "description": "Nodejs module to control omxplayer. Specifically written for the raspberry pi",
   "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "dependencies": {
+    "dbus-native": "^0.2.0",
+    "semaphore": "^1.0.5",
+    "debug": "^2.6.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Ap0c",
-  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Ap0c/node-omxplayer"
-  }
+    "url": "git+https://github.com/andrea-teom/node-omxplayer.git"
+  },
+  "keywords": [
+    "omxplayer",
+    "Raspberry",
+    "PI",
+    "dbus"
+  ],
+  "author": "Andrea D'Agostino",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrea-teom/node-omxplayer/issues"
+  },
+  "homepage": "https://github.com/andrea-teom/node-omxplayer#readme"
 }
